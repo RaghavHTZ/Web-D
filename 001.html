@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is one of the top 10 travelling company in India">
+    <title>Trial1</title>
+<!--linking exernal css sheet  -->
+<link rel="stylesheet" href="style1.css">
+<!-- linking external javascript to page -->
+<script src="javascript.js"></script>
+<marquee direction="right">Trial-1</marquee>
+<style>
+    marquee{
+        color:firebrick;
+        font-size: 60px;
+        font-family: serif;
+        font-style: bold, italic;
+    }
+    label{
+        color: deepskyblue;
+        font-family: Arial;
+        font-size: 20px;
+    }
+    h2{
+        font-family: sans-serif;
+        font-size: 40px;
+        color: brown;
+    }
+    body{
+        font-size: 20px;
+        margin: 50px;
+        /* background-color: blueviolet; */
+        background-image: linear-gradient(grey,white,black);
+    }
+    .btn{
+        color:gray;
+        background-color: black;
+    }
+    img{
+        
+        margin-left: 30%;
+        height: 5cm;
+        margin-top: -10%;
+        border: solid;
+        border-width: 7px;
+        border-color: aqua;
+        padding: 10px;/* It is used to make a gap between content/img and border in this case......*/
+        border-radius: 50px;
+    }
+</style>
+</head>
+<body>
+    <h2><center>Registration Form</center></h2>
+    <form action="mailto:raghavvyas.28@gmail.com" method="post">
+    Enter Name:- 
+    <input type="text" name="Enter Name" placeholder="Enter your Name">
+    <br>
+    Gender:
+    <input type="radio" name="Gender" id="m">
+    <label for="m">Male</label>
+    
+    <input type="radio" name="Gender" id="f">
+    <label for="f">Female</label>
+    <br>
+    Qualification:
+    <input type="checkbox" name="Qualification" id="X">
+    <label for="X">X<sup>th</sup></label>
+    
+    <input type="checkbox" name="Qualification" id="XII">
+    <label for="XII">XII<sup>th</sup></label>
+    
+    <input type="checkbox" name="Qualification" id="Gra">
+    <label for="Gra">Graduate</label>
+    
+    <input type="checkbox" name="Qualification" id="PG">
+    <label for="PG">Post-Graduate</label>
+    <br>
+    <img align="right" src="data:image/jpeg;base64,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"  alt="Pic of CapAmerica">
+    <br>
+    Select a Course:-
+    <select name="Selecta Course" id="">
+        <option>--Choose a Course--</option>
+        <option>Computer Science and Engineering</option>
+        <option>Mechanicals</option>
+        <option>EEE</option>
+        <option>CSE with AI</option>
+    </select>
+    <br>
+    <input type="submit" name="Submit" value="Submit" class="btn">
+    <input type="reset" value="Reset" class="btn">
+</form>
+</body>
+</html>
